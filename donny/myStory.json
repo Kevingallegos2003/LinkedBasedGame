@@ -1,0 +1,212 @@
+{
+    "Title": "Don and Donny",
+    "Credits": "Story created by Kevin Gallegos, Base created by Adam Smith (amsmith@ucsc.edu).",
+    "Day": "1",
+    "end": "office",
+    "InitialLocation": "Home",
+    "Locations": {
+        "Home": {
+            "Body": "This is home, you have been here for as long as you remember.<br> Do you remember when the birds sang the playful melody?<br>Do you remember when your imitations were accompanied by his?<br>Those from the birds may have been more eloquent, but our ensemble was priceless.<br> Those are the melodies you cant forget.",
+            "Choices": [
+                {
+                    "Text": "Go to your Room",
+                    "Target": "Room"
+
+                }
+            ]
+        },
+        "Room": {
+            "Body": "This is your room, its cozy and nice. Although I gotta start heading to school, I might be late again.",
+            "Choices": [
+                {
+                    "Text": "go to kitchen",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "go to front door",
+                    "Target": "FrontDoor"
+                }
+            ]
+        },
+        "Kitchen": {
+            "Body": "This is where you and Donnie would always eat, mom makes some great food. I quickly grab my breakfast and book it to the door.<br> I think I dropped my appleslices but thats ok, I'll just ask Don for his!",
+            "Choices": [
+                {
+                    "Text": "Go to the Front Door",
+                    "Target": "FrontDoor"
+                },
+                {
+                    "Text": "Go to your Room",
+                    "Target": "Room"
+                }
+            ]
+        },
+        "FrontDoor": {
+            "Body": "A gentle yet freezing breeze slips through the fram of the front door.<br>It brings a slight chill to your skin, yet it feels inviting<br>As if behind this door awaits reality you ever so long for.",
+            "Choices": [
+
+                {
+                    "Text": "Go outside",
+                    "Target": "Curb"
+                }
+            ]
+        },
+        "Curb": {
+            "Body": "I have so many memories playing on the curb with him<br>Sometimes I wonder if he would buy me a new ball since he<br> since he<br>lost it.",
+            "Choices": [
+
+                {
+                    "Text": "The sidewalk",
+                    "Target": "Sidewalk"
+                }
+            ]
+        },
+        "Sidewalk": {
+            "Body": "The walks to school and back always seem so fun.<br>Don would always tell me the silliest stories in his imagination, sometimes he drifts away<br> Going on and on about his imaginary friends.",
+            "Choices": [
+                {
+                    "Text": "Go back home curb",
+                    "Target": "Curb"
+                },
+                {
+                    "Text": "Head to the Park curb",
+                    "Target": "EndBlock"
+                }
+            ]
+        },
+        "EndBlock": {
+            "Body": "I guess Iam at the park curb, its always so much fun here! Maybe we could spare some time at the playground<br>Unless Donny thinks we will be late for class.",
+            "Choices": [
+                {
+                    "Text": "Go to the Playground",
+                    "Target": "playground"
+                },
+                {
+                    "Text": "Keep moving on, Your gonna be late!",
+                    "Target": "Field"
+                }
+            ]
+        },
+        "playground": {
+            "Body": "Don and I's favorite were the swings, riding them and chatting until the sun slid under the mountains",
+            "Choices": [
+                {
+                    "Text": "Go to a familiar bench",
+                    "Target": "Bench"
+                },
+                {
+                    "Text": "Go to the field",
+                    "Target": "Field"
+                },
+                {
+                    "Text": "Use the swings",
+                    "Target": "Swings"
+                }
+            ],
+            "keys": [
+                {
+                    "Item": "Pickup Newspaper",
+                    "message": "A newspaper clipping of an incident involving a kid perishing from getting struck by an automobile<br>The car was reported as 2010 Honda Civic<br>The driver was never found"
+                }
+
+            ]
+        },
+        "Field": {
+            "Body": "Grass, don't forget to check for ticks! We gotta keep marching on!<br>I'm pretty sure Don is allergic to grass.<Br> Or was it the bugs biting him?<br>I don't seem to remember anymore.",
+            "Choices": [
+                {
+                    "Text": "Go back to the playground",
+                    "Target": "playground"
+                },
+                {
+                    "Text": "go to a familiar bench",
+                    "Target": "Bench"
+                }
+            ]
+        },
+        "Swings": {
+            "Body": "As You slowly gain height, the breeze of the gentle afternoon fills your nostrils, A deja vu of sorts<br> you ask him if the both of you could reach the stars<br>You can see over some trees, and the breeze has become a wind<br>You can't help but feel at ease",
+            "Choices": [
+                {
+                    "Text": "Get off the Swing",
+                    "Target": "playground"
+                }
+            ]
+        },
+        "Bench": {
+            "Body": "The Bench where Donny and I would sit, we would always start complaining about school<br>Its the conversations on these benches that were always so memorable.<br>Donnie told me once about a kid who drank spoiled milk for 5 bucks during lunch<br>He- would've done it for like 20 if I- was, was being honest. ",
+            "Choices": [
+                {
+                    "Text": "Go back to the field",
+                    "Target": "Field"
+                },
+                {
+                    "Text": "Go to school",
+                    "Target": "Schoolyard"
+                }
+            ]
+        },
+        "Schoolyard": {
+            "Body": "We go to the same school, Don and I, I would get in trouble for talking but not Don somehow, He would always seem to go unnoticed",
+            "Choices": [
+                {
+                    "Text": "go to classroom",
+                    "Target": "Classroom"
+                }
+            ]
+        },
+        "Classroom": {
+            "Body": "I wonder if Donnie hates math like I do.<br>If theres any subject he loves its history!<br>He loves the idea about how the past can mold the future, he always goes on and on about it.<br>What was that ringing?<br>Oh right, I gotta head to the office right now.",
+            "Choices": [
+                {
+                    "Text": "Go to office",
+                    "Target": "Office"
+                },
+                {
+                    "Text": "go to yard",
+                    "Target": "Schoolyard"
+                }
+            ]
+        },
+        "Office": {
+            "Body": "Its time to take medication, yet I can never find Donnie after I take my medicine<br> Hopefully tomorrow we can walk to school once more.",
+            "Choices": [
+                {
+                    "Text": "Take the Medication",
+                    "Target": "end"
+                }
+            ],
+            "Choices2": [
+                {
+                    "Text": "Deny the Medication",
+                    "Target": "Computer"
+                }
+            ]
+        },
+        "SitBench": {
+            "Body": "",
+            "Choices": [
+                {
+                    "Text": "Get up from bench",
+                    "Target": ""
+                }
+            ]
+        },
+        "Computer": {
+            "Body": "I make a break for it<br>I cant lose him again, its too painful<br>I run into the Office and lock my self in.<br>A computer screen flickers in the dark office<br>Do I read the message?",
+            "Choices": [
+                {
+                    "Text": "Read",
+                    "Target": "Email"
+                }
+            ]
+        },
+        "Email": {
+            "Body": "Dear Parents:<br> In light of recent unfortunate and grave matters, the school will be hosting a ceremony to honor Don Westla,<br> a student who unfortunatly past away in car accident earlier in the year<br>Please wear proper attire and report to the stadium for the ceremony<br>-Principle Williams"
+        },
+        "end": {
+            "Body": "You feel dizzy, something doesn't feel right, you look around and see Don slowly fade as if he was never there<br>If he even was, that is."
+        }
+
+    }
+}
